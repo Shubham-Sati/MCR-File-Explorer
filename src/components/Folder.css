@@ -1,0 +1,78 @@
+.folder{
+    margin-top: 6px;
+    background-color: rgb(233 , 233 , 233);
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.folder:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.folder > span {
+    margin: 0 5px 2px 0;
+}
+
+.func{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.folderImage{
+    width: 22px;
+    height: 18px;
+}
+
+/* .folderImage:hover{
+    background-color: red;
+}
+.fileImage:hover{
+    background-color: red;
+} */
+
+.fileImage{
+    width: 20px;
+    height: 20px;
+}
+
+.file{
+    margin-top: 5px;
+    padding-left: 5px;
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.file:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.inputContainer>span{
+    margin-top: 5px;
+}
+
+.inputContainer__input{
+    margin: 6px 0 0 0;
+    padding: 5px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    width: 200px;
+}
